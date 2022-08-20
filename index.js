@@ -73,7 +73,7 @@ function renderiza(){
         const spanNome = document.createElement("span")
         spanNome.textContent = produtosPerCapta[i].nome
         const spanPreco = document.createElement("span")
-        spanPreco.textContent = produtosPerCapta[i].valor.toFixed(2)*pessoas.length
+        spanPreco.textContent = produtosPerCapta[i].valor.toFixed(2)
         const spanX = document.createElement("button")
         spanX.textContent = "X"
         containerPerCapta.appendChild(spanNome)
